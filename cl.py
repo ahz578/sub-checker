@@ -28,8 +28,7 @@ with open(CONF_PATH,"r") as file_client_set:
         test_link_=f["core"]["test_url"]
 TEXT_PATH="normal.txt"
 LINK_PATH = [
-    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
-    "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/mix",
+    "https://aaa1404.pages.dev/sub/normal/hzMmRWJhSh*xet6J#%F0%9F%92%A6%20BPB%20Normal",
 ] # [ "link1" , "link2" , ... ]
 FIN_PATH="final.txt"
 FIN_CONF=[]
@@ -1929,4 +1928,5 @@ with open(FIN_PATH,"w") as f:
     except Exception as e:
         print(f"Unexpected error writing to {FIN_PATH}: {e}")
 exit()
+
 
